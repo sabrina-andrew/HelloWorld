@@ -8,7 +8,8 @@ namespace HelloWorld.Tests
         [Fact]
         public void Hello_World_Test()
         {
-            Assert.Equal("Hello", "Hello");
+            string message = "I am Sam";
+            Console.WriteLine(message); // prints "I am Sam"
         }
     }
 }

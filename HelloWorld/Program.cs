@@ -6,7 +6,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string message = "I am Sam";
+            Console.WriteLine(message); // prints "I am Sam"
         }
     }
 }
